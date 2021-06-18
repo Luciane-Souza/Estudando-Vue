@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import'../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import'../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import'variable';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+  background-color: $featured;
+  border-color: $featured-dark;
+  &:hover {
+    background-color: $featured-dark;
+  }
+}
+
+.btn-outline-primary {
+  border-color: var(--featured) !important;
+  color: var(--featured) !important;
+  &:hover {
+    color: var(--darker) !important;
+    background-color: var(--featured) !important;
+  }
+}
+
+
